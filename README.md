@@ -8,6 +8,6 @@ Doing a challenge with Html and CSS, i got this challenge on https://www.fronten
 
 ![desktop preview](https://github.com/PabloFDD/second-challenge/blob/main/design/desktop-by-pvblu.jpg?raw=true)
 
-<br><p align="center">Mobile version:</p></br>
+<p align="center">Mobile version:</p>
 
 ![mobile preview](https://github.com/PabloFDD/second-challenge/blob/main/design/mobile-by-pvblu.jpg?raw=true)
