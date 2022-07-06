@@ -6,5 +6,5 @@ Doing a challenge with Html and CSS, i got this challenge on https://www.fronten
 Desktop version:
 ![desktop preview](https://github.com/PabloFDD/second-challenge/blob/main/design/desktop-by-pvblu.jpg?raw=true)
 
-Mobile version:
+<br>Mobile version:</br>
 ![desktop preview](https://github.com/PabloFDD/second-challenge/blob/main/design/mobile-by-pvblu.jpg?raw=true)
