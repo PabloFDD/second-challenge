@@ -15,16 +15,18 @@ body{
     position: relative;
     background: hsl(257, 40%, 49%);
     background-image: url(./images/bg-desktop.svg);
+    background-size: 100%;
     height: 100vh;
 }
 
 .cabecalho{
     font-family: 'Poppins', sans-serif;
-    padding: 2.5rem;
+    padding: 1.5rem;
 }
 
 .img-header{
     padding-right: 10px;
+    filter: invert(100%);
 }
 
 .cabecalho h1{
@@ -72,10 +74,25 @@ button{
     box-shadow: 2px 2px 10px #000000;
 }
 
+button:hover{
+    cursor: pointer;
+    background-color: hsl(300, 69%, 71%);
+    color: #FFFFFF;
+}
+
 .social-media a{
     padding: 0 5px;
     position: relative;
     left: 80%;
+}
+
+.social-media img{
+    filter: invert(100%);
+}
+
+.social-media img:hover{
+    cursor: pointer;
+    filter: opacity(0.2) drop-shadow(0 0 0 hsl(300, 69%, 71%));
 }
 
 footer{
@@ -92,4 +109,126 @@ footer{
 }
 .attribution a { 
      color: rgb(255, 255, 255); 
+}
+
+@media only screen and (max-width: 1440px){
+    .cabecalho h1{
+        font-size: 40px;
+        margin-left: 3rem;
+    }
+
+    .cabecalho{
+        padding: 0;
+        margin-left: 3rem;
+        margin-top: 1rem;
+    }
+    .box{
+        margin-left: 6rem;
+    }
+
+    .main-text h1{
+        font-size: 35px;
+    }
+
+    .main-text p{
+        font-size: 18px;
+    }
+
+    .main-text{
+        margin: 0 3em;
+    }
+
+    .img{
+        width: 50%;
+    }
+
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+        height: 100%;
+    }
+    .attribution a { 
+         color: rgb(255, 255, 255); 
+    }
+}
+
+@media only screen and (max-width: 450px){
+    
+    body, .main-text, img, h1, .cabecalho, .social-media, .box{
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    body{
+        background-repeat: no-repeat;
+    }
+
+    .cabecalho{
+        margin-top: 2rem;
+    }
+
+    .cabecalho h1{
+        font-size: 30px;
+    }
+
+    .main-text{
+        padding-top: 2rem;
+    }
+    .main-text h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    .main-text p{
+        font-size: 17px;
+        line-height: 2rem;
+        text-align: center;
+    }
+    .box{
+        display: block;
+        margin: 0 2rem;
+    }
+
+    .img{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img-header {
+        width: 10%;
+    }
+
+    button{
+        font-size: 16px;
+        width: 70%;
+        padding: 15px 30px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .social-media img{
+        width: 7%;
+        padding-top: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social-media {
+        padding: 0 5px;
+        position: relative;
+        right: 45%;
+    }
+
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+        bottom: 100%;
+        padding: 2rem 0 0 0;
+    }
+    .attribution a { 
+         color: rgb(255, 255, 255); 
+    }
 }
